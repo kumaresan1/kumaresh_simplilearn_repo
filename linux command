@@ -1,0 +1,16 @@
+hostname i
+whoami
+mkdir
+cd /
+cd ..
+ls
+ls -l
+ca /
+touch
+vi filename
+chmod u+x
+chmod g+r
+rmdir
+yum update
+yum install git
+pwd
