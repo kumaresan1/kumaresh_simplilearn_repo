@@ -1,0 +1,69 @@
+1  yum install git
+    2  git --version
+    3  history
+    4  pwd
+    5  mkdir project1
+    6  cd project1/
+    7  ls -l
+    8  ls -la
+    9  pwd
+   10  git init
+   11  ls -la
+   12  pwd
+   13  git init
+   14  ls -la
+   15  cd ..
+   16  mkdir project2
+   17   cd project2
+   18  ls -la
+   19  git clone https://github.com/kumaresan1/kumaresh_simplilearn_repo.git
+   20  ls -la
+   21  kumaresh_simplilearn_repo/
+   22  cd kumaresh_simplilearn_repo/
+   23  ls -l
+   24  ls -la
+   25  cd ..
+   26  cd project1
+   27  ls -l
+   28  ls -la
+   29  ls
+   30  ls -la
+   31  ls -l
+   32  touch file1
+   33  vi file1
+   34  ls
+   35  ls -l
+   36  git status
+   37  cd ../project2/kumaresh_simplilearn_repo/
+   38  git status
+   39  cd ../../project1
+   40  ls -l
+   41  git status
+   42  git add file1
+   43  git status
+   44  git ls files
+   45  git ls-files
+   46  touch file2
+   47  ls -l
+   48  git ls-files
+   49  git status
+   50  git commit -m "1st commit"
+   51  git status
+   52  git ls-files
+   53  git remote add origin https://github.com/kumaresan1/kumaresh_simplilearn_repo.git
+   54  git branch
+   55  git branch app1 master
+   56  git branch
+   57  git checkout app1
+   58  git ls-files
+   59  git status
+   60  git checkout master
+   61  git branch
+   62  git push origin master
+   63  git branch
+   64  git status
+   65  git add file2
+   66  git commit -m "2nd commit"
+   67  git ls-files
+   68  git push origin master
+   69  history
